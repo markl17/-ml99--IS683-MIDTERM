@@ -1,0 +1,102 @@
+IS 683 Mid-Term Exam . Job Interview
+
+You can submit your answers to these questions in an email to me OR for extra credit of 10% answer 
+
+these questions in a file along with your programing assignment and submit the answers using GITHub, 
+
+when you submit the programming portion.   Each of these questions is worth 2.5 points for a total of 
+
+50 points.  Your programming test is worth 5 Point per part for a total of 50 points.  The entire exam 
+
+is worth 100 points.
+
+Job Description
+
+Company XYZ is hiring an entry level PHP programmer to maintain and develop custom applications in 
+
+PHP.   You will expected to be able to write object oriented PHP code, SQL queries, HTML, CSS, and 
+
+Javascript/Jquery.  
+
+Applicants should be able to work in teams and should have experience using a version control system.  
+
+ The ideal candidate should be familiar with new technologies like MongoDB/NoSQL databases, software 
+
+design patterns, KISS, and DRY principles of software development.  Applicants should also have 
+
+experience using the LINUX/UNIX command line.
+
+We are hiring an entry
+
+1.	What does the acronym KISS mean and how does following this make you a better computer 
+
+programmer?keep it simple stupid
+	it assists the team leader in tracking and reassigning if the stuff is siple to read and 
+
+simple to understand
+2.	What does the acronym DRY mean and why is it an essential principle of being a good computer 
+
+programmer?
+Don't Repeat Yourself (DRY) or Duplication is Evil (DIE) modification of any single element of a 
+
+system does not change other logically-unrelated elements
+3.	What is the difference between a database like MongoDB and MySQL?
+mongo is nonrelational where as MySQL is relational
+4.	If you were asked to write a program that could write at least 50 different HTML tags how 
+
+would you do it?
+function tag($tag, $attributes, $content) {
+
+	$output = '<' . $tag;
+
+	foreach($attributes as $key => $value) {
+			$output .= ' ' . $key . '="' . $value . '"';
+	}
+
+	$output .= '>' . $content . '</' . $tag . '>';
+
+	return $output;
+}
+
+5.	What software design pattern would you be demonstrating in in the above solution?
+
+6.	What version control system(s) have you used?
+7.	What is GitHub and have you ever used it? 
+it is designed to be able to repository programing files and their versions allowing others to 
+
+amnipulate and change and update 
+8.	What is the command to create a GIT repository
+git init
+
+9.	What is the command to tell GIT to start tracking the file?
+GIT 
+
+10.	What is the command to commit your changes to the GIT log?git commit
+11.	What is the command to add a remote repository?$ git remote add origin 
+
+git@github.com:username/'namer of your repo'
+12.	What is the command to send your committed changes to the remote repository?
+$ git push origin master
+13.	What is your experience working in a software development team?it is very different and takes 
+
+patiance and KISS model
+14.	How would you create a new file and directory in linux? cat>file
+kdgjslgjljglsdfj
+
+15.	How would you set the permissions on a file / folder, so that another user can write to it.   
+
+i.e. so you the webserver can upload a file to the directory.chmod +R 'file'
+16.	What program do you use to write your PHP code?VI
+17.	What is a constructor in PHP and how/why would you use it?_constructor function allows to use 
+
+a sytem based arrays for memory or other things like names of files and put get
+like this (array('_id' => new MongoId($_GET['_id']
+18.	What is the difference between a class and an object? class you declare but in order to run it 
+
+one has to enstantiate new something(); an array of things is a simple example of object
+19.	Why is it important to comment / document your code?so that others can read it and followe it
+20.	What traits do you think a good computer programmer has? detailes and more detailes 
+
+
+
+
