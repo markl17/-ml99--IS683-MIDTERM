@@ -80,7 +80,9 @@ $ git push origin master
 13.	What is your experience working in a software development team?it is very different and takes 
 
 patiance and KISS model
-14.	How would you create a new file and directory in linux? cat>file
+14.	How would you create a new file and directory in linux? touch something
+and mkdir something 
+cat>file
 kdgjslgjljglsdfj
 
 15.	How would you set the permissions on a file / folder, so that another user can write to it.   
