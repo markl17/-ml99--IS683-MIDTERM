@@ -59,22 +59,23 @@ function tag($tag, $attributes, $content) {
 }
 
 5.	What software design pattern would you be demonstrating in in the above solution?
-
+         Factory pattern
 6.	What version control system(s) have you used?
+GITHUB apt get install (linux distribution system, make scripts using diff)
 7.	What is GitHub and have you ever used it? 
 it is designed to be able to repository programing files and their versions allowing others to 
 
-amnipulate and change and update 
+manipulate and change and update 
 8.	What is the command to create a GIT repository
 git init
 
 9.	What is the command to tell GIT to start tracking the file?
-GIT 
+GIT add
 
-10.	What is the command to commit your changes to the GIT log?git commit
+10.	What is the command to commit your changes to the GIT log?git commit -m 'comment'
 11.	What is the command to add a remote repository?$ git remote add origin 
 
-git@github.com:username/'namer of your repo'
+git remote add origin git@github.com:username/'namer of your repo'.git
 12.	What is the command to send your committed changes to the remote repository?
 $ git push origin master
 13.	What is your experience working in a software development team?it is very different and takes 
@@ -83,7 +84,7 @@ patiance and KISS model
 14.	How would you create a new file and directory in linux? touch something
 and mkdir something 
 cat>file
-kdgjslgjljglsdfj
+kdgjslgjljglsdfj ^d
 
 15.	How would you set the permissions on a file / folder, so that another user can write to it.   
 
@@ -93,7 +94,7 @@ i.e. so you the webserver can upload a file to the directory.chmod +R 'file'
 
 a sytem based arrays for memory or other things like names of files and put get
 like this (array('_id' => new MongoId($_GET['_id']
-18.	What is the difference between a class and an object? class you declare but in order to run it 
+18.	What is the difference between a class and an object? class you declare, it is like a blueprint but in order to run it 
 
 one has to enstantiate new something(); an array of things is a simple example of object
 19.	Why is it important to comment / document your code?so that others can read it and followe it
